@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="6px" viewBox="0 0 10 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Triangle</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Form/dropdown" transform="translate(-252.000000, -54.000000)" fill="#B7B7B7">
+            <path d="M256.229023,59.6853873 L252.319349,55.8336972 C251.89355,55.4142136 251.89355,54.7340963 252.319349,54.3146127 C252.523825,54.1131696 252.801153,54 253.090326,54 L260.909674,54 C261.511845,54 262,54.4809155 262,55.0741549 C262,55.3590385 261.885127,55.632254 261.680651,55.8336972 L257.770977,59.6853873 C257.345178,60.1048709 256.654822,60.1048709 256.229023,59.6853873 Z" id="Triangle"></path>
+        </g>
+    </g>
+</svg>

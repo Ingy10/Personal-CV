@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="74px" height="64px" viewBox="0 0 74 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Reserve</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Restaurant-Redesign" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-683.000000, -3209.000000)" fill="#D6D6D6" fill-rule="nonzero">
+            <g id="paper-pencil" transform="translate(680.000000, 3203.000000)">
+                <g id="Line_Icons" transform="translate(3.333333, 6.666667)">
+                    <g id="Reserve">
+                        <path d="M63.3333333,0 C57.82,0 53.3333333,4.48666667 53.3333333,10 L53.3333333,47.6766667 L63.3333333,62.6766667 L73.3333333,47.6766667 L73.3333333,10 C73.3333333,4.48666667 68.8466667,0 63.3333333,0 Z M66.6666667,45.66 L63.3333333,50.66 L60,45.66 L60,20 L66.6666667,20 L66.6666667,45.66 Z M60,13.3333333 L60,10 C60,8.16 61.4966667,6.66666667 63.3333333,6.66666667 C65.17,6.66666667 66.6666667,8.16 66.6666667,10 L66.6666667,13.3333333 L60,13.3333333 Z" id="Shape"></path>
+                        <path d="M40,3.33333333 L6.66666667,3.33333333 C2.99,3.33333333 0,6.32666667 0,10 L0,56.6666667 C0,60.3433333 2.99,63.3333333 6.66666667,63.3333333 L40,63.3333333 C43.6766667,63.3333333 46.6666667,60.3433333 46.6666667,56.6666667 L46.6666667,10 C46.6666667,6.32666667 43.6766667,3.33333333 40,3.33333333 Z M6.66666667,56.6666667 L6.66666667,10 L40,10 L40.0033333,56.6666667 L6.66666667,56.6666667 Z" id="Shape"></path>
+                        <rect id="Rectangle-path" x="13.3333333" y="16.6666667" width="20" height="6.66666667"></rect>
+                        <rect id="Rectangle-path" x="13.3333333" y="30" width="20" height="6.66666667"></rect>
+                        <rect id="Rectangle-path" x="13.3333333" y="43.3333333" width="13.3333333" height="6.66666667"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

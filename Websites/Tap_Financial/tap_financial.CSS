@@ -1,0 +1,81 @@
+/** {
+    border: .5px solid rgb(255, 0, 0);
+}*/
+body {
+    display: flex;
+    justify-content: center;
+}
+.page_container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    margin: 0;
+    padding: 10px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header {
+    background-image: url(images/piggy-bank.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    min-height: 70svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2% 32px 2% 32px;
+    margin: 0;
+}
+nav li {
+    list-style: none;
+}
+nav ul {
+    display: flex;
+    gap: 4svh;
+}
+nav ul a {
+    text-decoration: none;
+    color: black;
+}
+.title, .subtitle {
+    width: 45%;
+    margin-bottom: 8px;
+    font-size: 3.1rem;
+}
+.subtitle {
+    font-size: 1.3rem;
+    font-weight: normal;
+    line-height: 1.2;
+    width: 40%;
+}
+.about {
+    background-color: peachpuff;
+    padding: 20px 40px;
+    position: relative;
+}
+.about_title {
+    text-align: center;
+}
+.about_content {
+    display: flex;
+    padding: 0 20px;
+    gap: 5%;
+    text-wrap: balance;
+}
+.footer {
+    display: flex;
+    background-color: rgb(187, 187, 187);
+    color: white;
+    justify-content: space-around;
+}
+.footer ul {
+    list-style: none;
+    padding: 0px;
+}
+.footer ul a {
+    text-decoration: none;
+    color: white;
+}

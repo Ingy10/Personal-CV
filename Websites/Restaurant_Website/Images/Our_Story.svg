@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="68px" viewBox="0 0 60 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Our_Story</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Restaurant-Redesign" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-690.000000, -990.000000)" fill="#D6D6D6" fill-rule="nonzero">
+            <g id="kitchen-fork-spoon" transform="translate(680.000000, 984.000000)">
+                <g id="Our_Story" transform="translate(10.000000, 6.666667)">
+                    <g id="Group">
+                        <path d="M20,20 C20,22.4566667 18.65,24.5833333 16.6666667,25.7433333 L16.6666667,0 L10,0 L10,25.7433333 C8.01666667,24.5833333 6.66666667,22.4566667 6.66666667,20 L6.66666667,0 L0,0 L0,20 C0,26.1933333 4.26333333,31.37 10,32.86 L10,66.6666667 L16.6666667,66.6666667 L16.6666667,32.86 C22.4033333,31.3666667 26.6666667,26.1933333 26.6666667,20 L26.6666667,0 L20,0 L20,20 Z" id="Shape"></path>
+                        <path d="M46.6666667,0 C39.3166667,0 33.3333333,5.98333333 33.3333333,13.3333333 L33.3333333,20 C33.3333333,26.1933333 37.5966667,31.37 43.3333333,32.86 L43.3333333,66.6666667 L50,66.6666667 L50,32.86 C55.7366667,31.3666667 60,26.1933333 60,20 L60,13.3333333 C60,5.98333333 54.0166667,0 46.6666667,0 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
