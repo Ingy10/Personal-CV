@@ -9,6 +9,7 @@
 */
 * {
   margin: 0;
+  box-sizing: border-box;
 }
 /*
   Typographic tweaks!
@@ -445,6 +446,16 @@ p, h1, h2, h3, h4, h5, h6 {
     transform: rotateX(20deg) rotateY(30deg);
     font-size: 1.1rem;
   }
+  .skills_box:nth-child(1), .skills_box:nth-child(4), .skills_box:nth-child(6), 
+  .skills_box:nth-child(9), .skills_box:nth-child(10), .skills_box:nth-child(12) {
+    background-color: rgba(35, 35, 88, 0.875);
+  }
+  .skills_box:nth-child(7), .skills_box:nth-child(8) {
+    background-color: rgba(226, 226, 251, 0.875);
+    color: rgb(15, 15, 38);
+    font-weight: 600;
+    border: none;
+  }
   .skills_box:hover {
     transition: 0.7s ease;
     transform: rotateX(10deg) rotateY(10deg);
@@ -587,7 +598,6 @@ p, h1, h2, h3, h4, h5, h6 {
     display: flex;
     justify-content: center;
     position: relative;
-    width: 100%;
     margin: 50px 0px 0px 0px;
     padding: 0;
     z-index: 2;
@@ -607,39 +617,32 @@ p, h1, h2, h3, h4, h5, h6 {
   .projects {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    position: relative;
+    align-items: center;
+    margin: 20px 0px 20px 0px;
     width: 100%;
-    margin: 0;
-    padding: 0;
   }
   .project {
-    height: 25svh;
-    width: 40svh;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 217);
     position: relative;
     margin: 40px 10px 20px 10px;
-    padding: 10px;
     box-shadow: -8px 8px 1px lightgreen,
     -18px 18px 1px pink;
-    overflow: hidden;
     transition: 1s ease;
+    width: 80%;
+  }
+  .project img {
+    object-fit: contain;
+    height: auto;
+    position: relative;
   }
   .project:hover {
-    transform: scale(1.3) translateX(-10px);
+    transform: scale(1.1);
     transition: 1s ease-in-out;
     box-shadow: 0px 0px 3px lightgreen,
     0px 0px 5px pink;
     z-index: 3;
   }
-  .project2 {
-    height: 23svh;
-  }
-  .project3 {
-    height: 24svh;
-  }
   .project4 {
-    height: 35svh;
     margin-bottom: 60px;
   }
   .project4:hover {
@@ -655,7 +658,6 @@ p, h1, h2, h3, h4, h5, h6 {
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 100%;
     margin: 0px;
     transition: filter 0.5s ease;
   }
@@ -986,7 +988,7 @@ p, h1, h2, h3, h4, h5, h6 {
   }
   .footer {
     width: 100%;
-    height: 6svh;
+    min-width: 360px;
     position: fixed;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.378);
@@ -994,16 +996,23 @@ p, h1, h2, h3, h4, h5, h6 {
     justify-content: space-between;
     align-items: center;
     max-width: 1440px;
+    padding-right: 10px;
+    padding-left: 10px;
   }
   .back_to_top {
     color: white;
     margin-left: 5px;
   }
+  .footer a {
+    font-size: 22px;
+  }
   .fa, .fa-regular, .fa-brands {
-    padding: 6px 0px 5px 0px;
+    padding: 7px 0px;
     margin: 5px 5px 10px 0px;
-    width: 30px;
+    width: 35px;
+    height: 35px;
     text-align: center;
+    justify-items: center;
     text-decoration: none;
     border-radius: 50%;
     color: white;
@@ -1112,19 +1121,6 @@ p, h1, h2, h3, h4, h5, h6 {
     .skills_section {
       grid-template-columns: 1fr 1fr 1fr;
     }
-    .project {
-      height: 39svh;
-      width: 60svh;
-    }
-    .project2 {
-      height: 35svh;
-    }
-    .project3 {
-      height: 37svh;
-    }
-    .project4 {
-      height: 51svh;
-    }
     .project:hover {
       transform: scale(1.3) translateX(-5px);
     }
@@ -1161,26 +1157,15 @@ p, h1, h2, h3, h4, h5, h6 {
     .projects {
       display: grid;
       grid-template-columns: 2fr 2fr;
-      margin: 0px 50px 50px 25px;
-      justify-content: space-evenly;
-      position: relative;
+      margin: 0px;
+      width: 100%;
+      justify-items: center;
     }
     .portfolio_title {
       margin-bottom: 0px;
     }
     .project {
-      height: 37svh;
-      width: 55svh;
-    }
-    .project2 {
-      height: 33svh;
-    }
-    .project3 {
-      height: 34svh;
-    }
-    .project4 {
-      height: 41svh;
-      margin-top: 4px;
+      object-fit: cover;
     }
     .project:hover {
       transform: scale(1.3) translateX(80px) translateY(20px);

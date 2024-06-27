@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize variables for touch event tracking
     var startX = 0;
     var endX = 0;
-    var threshold = 20; // Minimum distance in pixels to trigger a swipe
+    var threshold = 50; // Minimum distance in pixels to trigger a swipe
     var currentJobIndex = 0; // Track the current job being displayed
     var jobs = document.querySelectorAll('.job'); // Get all job elements
 
