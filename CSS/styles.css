@@ -934,10 +934,13 @@ p, h1, h2, h3, h4, h5, h6 {
   }
   .contact_names input, .message textarea, .contact_other input {
     /*color: rgba(104, 87, 48, 0.872);*/
-    color: rgba(155, 155, 155, 0.8);
+    color: rgb(204, 198, 165);
+    letter-spacing: 2px;
+    font-weight: 500;
     text-shadow: 1px 1px 1px black;
     padding-left: 10px;
-    font-size: .8rem;
+    font-size: 1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
   }
   .contact_message {
     border: none;
